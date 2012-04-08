@@ -1,0 +1,29 @@
+<html>
+<head>
+ 	<meta charset="utf-8">
+   <title>Marek Kedzierski GitHub</title>
+   <link type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/vader/jquery-ui.css" rel="stylesheet" />	
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+   <script type="text/javascript" >
+     $(document).ready(function(){
+    	$( "#dialog" ).dialog({ autoOpen : false });
+    	$("#show_dialog").button();
+    	$("#show_dialog").click( function() {
+    		$("#dialog").dialog('open');
+    	});
+     });
+   </script>
+</head>
+<body>
+
+<button id="show_dialog">Show Dialog</button>
+
+	<div id="dialog">
+		<h1>Dialog Header</h1>
+		<p>Dialog contents</p>
+	</div>
+
+</body>
+</html>
+

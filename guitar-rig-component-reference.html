@@ -40,9 +40,16 @@
 			$('#ajaxButton').button().click(function() {
 				$.get( 'files/Guitar.Rig.5.Component.Reference.pdf',
 					function (data) {
-						$('#ajaxDialog').html(data);
-						$('#ajaxDialog').dialog().show();
+						$('#ajax').html(data);
+						//$('#ajaxDialog').dialog().show();
 					} );
+			});
+			$('#ajaxButton2').button().click(function() {
+							$.get( 'README.md',
+								function (data) {
+									$('#ajax').html(data);
+									//$('#ajaxDialog').dialog().show();
+								} );
 			});
 		});
    	</script>
@@ -52,6 +59,9 @@
 <hr/>
 <button id="ajaxButton">AJAX Dialog</button>
 <div id="ajaxDialog" style="display: none;"></div>
+<br/>
+<button id="ajaxButton2">Button 2</button>
+<div id="ajax"></div>
 <hr/>
 
 <h1>Guitar Rig 5 Components</h1>

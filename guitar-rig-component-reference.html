@@ -38,16 +38,11 @@
 				heightStyle: "content"
 			});
 			$('#ajaxButton').button().click(function() {
-				$.ajax({
-					url: 'files/Guitar.Rig.5.Component.Reference.pdf',
-					success: function (data) {
-						$('#ajaxDialog').html('success');
+				$.get( 'files/Guitar.Rig.5.Component.Reference.pdf',
+					function (data) {
+						$('#ajaxDialog').html(data);
 						$('#ajaxDialog').dialog().show();
-					},
-					error: function() {
-						alert('error');
-					}
-					});
+					} );
 			});
 		});
    	</script>

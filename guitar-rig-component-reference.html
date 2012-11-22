@@ -37,20 +37,17 @@
 				active: false,
 				heightStyle: "content"
 			});
-			$('#showDialogButton').button();
-
 			$('#ajaxButton').button().click(function() {
 				$.ajax({
-					url: 'User Manuals/Guitar Rig 5 Component Reference.pdf',
-					dataType: 'jsonp',
+					url: 'files/Guitar.Rig.5.Component.Reference.pdf',
 					success: function (data) {
-						$('#ajax').html('success');
+						$('#ajaxDialog').html('success');
+						$('#ajaxDialog').dialog().show();
 					},
 					error: function() {
 						alert('error');
 					}
 					});
-				//$('#ajaxDialog').dialog().show();
 			});
 		});
    	</script>
@@ -60,8 +57,7 @@
 <hr/>
 <button id="ajaxButton">AJAX Dialog</button>
 <div id="ajaxDialog" style="display: none;"></div>
-
-<div id="ajax" >contents</div>
+<hr/>
 
 <h1>Guitar Rig 5 Components</h1>
 <div id="accordion">

@@ -37,32 +37,10 @@
 				active: false,
 				heightStyle: "content"
 			});
-			$('#ajaxButton').button().click(function() {
-				$.get( 'files/Guitar.Rig.5.Component.Reference.pdf',
-					function (data) {
-						$('#ajax').html(data);
-						//$('#ajaxDialog').dialog().show();
-					} );
-			});
-			$('#ajaxButton2').button().click(function() {
-							$.get( 'README.md',
-								function (data) {
-									$('#ajax').html(data);
-									//$('#ajaxDialog').dialog().show();
-								} );
-			});
 		});
    	</script>
 </head>
 <body>
-
-<hr/>
-<button id="ajaxButton">AJAX Dialog</button>
-<div id="ajaxDialog" style="display: none;"></div>
-<br/>
-<button id="ajaxButton2">Button 2</button>
-<div id="ajax"></div>
-<hr/>
 
 <h1>Guitar Rig 5 Components</h1>
 <div id="accordion">
@@ -72,22 +50,23 @@
 <tr><td>AC Box</td><td class="real">Vox AC30</td></tr>
 <tr><td>Bass Pro </td><td class="real">Ampeg SVT-2 Pro</td></tr>
 <tr><td>Citrus </td><td class="real">Orange Overdrive OD120</td></tr>
-<tr><td>Gratifier </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=13">Mesa/Boogie Dual Rectifier</a></td></tr>
-<tr><td>Hot Solo+ </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=16">Soldano Hot Rod 100 + or SLO-100</a></td></tr>
+<tr><td>Gratifier </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=13">Mesa/Boogie Dual Rectifier</a></td></tr>
+<tr><td>Hot Solo+ </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=16">Soldano Hot Rod 100 + or SLO-100</a></td></tr>
 <tr><td>High White </td><td class="real">Hiwatt DR-103</td></tr>
 <tr><td>Plex </td><td class="real">Marshall 1959 SLP</td></tr>
 <tr><td>Jazz Amp </td><td class="real">Roland Jazz Chorus-120</td></tr>
-<tr><td>Jump </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=18">Marshall JMP</a></td></tr>
-<tr><td>Lead 800 </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=19">Marshall JCM800 Lead</a></td></tr>
-<tr><td>Twang Reverb </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=21">Fender Twin Reverb</a></td></tr>
+<tr><td>Jump </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=18">Marshall JMP</a></td></tr>
+<tr><td>Lead 800 </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=19">Marshall JCM800 Lead</a></td></tr>
+<tr><td>Twang Reverb </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=21">Fender Twin Reverb</a></td></tr>
 <tr><td>Tweedman </td><td class="real">Fender Bassman</td></tr>
 <tr><td>Tweed Delight </td><td class="real">Fender Tweed Deluxe</td></tr>
 <tr><td>Ultrasonic </td><td class="real">Bogner Überschall</td></tr>
-<tr><td>Van 51 </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=25">Peavey 5150 or Peavey 6505</a></td></tr>
+<tr><td>Van 51 </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=25">Peavey 5150 or Peavey 6505</a></td></tr>
 </table></div>
 
 <h3>Microphones</h3>
 <div><table>
+<tr><th>Component</th><th>Emulated Gear</th></tr>
 <tr><td>Con 30 </td><td class="real">Earthworks M30</td></tr>
 <tr><td>Con 47 </td><td class="real">Neumann U 47</td></tr>
 <tr><td>Con 54 </td><td class="real">Neumann KM 54</td></tr>
@@ -107,7 +86,8 @@
 
 <h3>Control Room Pro</h3>
 <div><table>
-<tr><td colspan="2"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=31">Control Room Pro</a></td></tr>
+<tr><th>Component</th><th>Emulated Gear</th></tr>
+<tr><td colspan="2"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=31">Control Room Pro</a></td></tr>
 <tr><th>Component</th><th>Emulated Gear</th></tr>
 <tr><td>2x12 AC Silver </td><td class="real">Vox AC 30 Silver Alnico Speakers</td></tr>
 <tr><td>4x12 Modern </td><td class="real">ENGL E412VG</td></tr>
@@ -141,7 +121,8 @@
 
 <h3>Delay & Echo</h3>
 <div><table>
-<tr><td>Delay Man </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=34">Electro-Harmonix Memory Man</a></td></tr>
+<tr><th>Component</th><th>Emulated Gear</th></tr>
+<tr><td>Delay Man </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=34">Electro-Harmonix Memory Man</a></td></tr>
 <tr><td>Tape Echo </td><td class="real">Roland RE-201 Space Echo</td></tr>
 <tr><td>Psyche Delay
 <tr><td>Quad Delay
@@ -150,13 +131,14 @@
 
 <h3>Distortion</h3>
 <div><table>
-<tr><td>Big Fuzz </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=43">Electro-Harmonix Big Muff Pi</a></td></tr>
-<tr><td>Cat </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=44">Pro Co RAT</a></td></tr>
-<tr><td>Demon Distortion </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=45">MXR Dime Distortion DD11</a></td></tr>
-<tr><td>Distortion </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=46">Boss DS-1</a></td></tr>
+<tr><th>Component</th><th>Emulated Gear</th></tr>
+<tr><td>Big Fuzz </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=43">Electro-Harmonix Big Muff Pi</a></td></tr>
+<tr><td>Cat </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=44">Pro Co RAT</a></td></tr>
+<tr><td>Demon Distortion </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=45">MXR Dime Distortion DD11</a></td></tr>
+<tr><td>Distortion </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=46">Boss DS-1</a></td></tr>
 <tr><td>Fuzz </td><td class="real">Dunlop Dallas Arbiter Fuzz Face</td></tr>
 <tr><td>MeZone </td><td class="real">Boss MT-2 Metal Zone</td></tr>
-<tr><td>Skreamer </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=49">Ibanez TS-808 Tube Screamer</a></td></tr>
+<tr><td>Skreamer </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=49">Ibanez TS-808 Tube Screamer</a></td></tr>
 <tr><td>Sledge Hammer </td><td class="real">Marshall Jackhammer JH-1</td></tr>
 <tr><td>TransAmp </td><td class="real">Tech 21 SansAmp GT2</td></tr>
 <tr><td>Treble Booster
@@ -165,6 +147,7 @@
 
 <h3>Modulation</h3>
 <div><table>
+<tr><th>Component</th><th>Emulated Gear</th></tr>
 <tr><td>Electric Lady </td><td class="real">Electro-Harmonix Electric Mistress</td></tr>
 <tr><td>Ensemble </td><td class="real">Boss CE-1 Chorus Ensemble</td></tr>
 <tr><td>Flanger </td><td class="real">TC Electronic Stereo Chorus + Flanger</td></tr>
@@ -176,7 +159,7 @@
 <tr><td>Pitch
 <tr><td>Harmonic Synthesizer </td><td class="real">Electro-Harmonix Micro Synthesizer</td></tr>
 <tr><td>Octaver </td><td class="real">Boss OC-2 Octave</td></tr>
-<tr><td>Pitch Pedal </td><td class="real"><a href="User Manuals\Guitar Rig 5 Component Reference.pdf#page=91">DigiTech WH-4 Whammy</a></td></tr>
+<tr><td>Pitch Pedal </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=91">DigiTech WH-4 Whammy</a></td></tr>
 <tr><td>Resochord
 </table></div>
 </div>

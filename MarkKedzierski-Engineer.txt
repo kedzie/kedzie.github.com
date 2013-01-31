@@ -1,0 +1,178 @@
+Marek Kedzierski
+-------------------
+(847)-204-7068
+mark.kedzierski@gmail.com
+http://mark.kedzierski.googlepages.com
+
+
+Objective
+-------------
+To make significant contributions in the design & development of Service Oriented Architectures
+
+
+Security Clearance
+---------------------
+Active DoD SECRET security clearance.
+
+
+Technical Skills
+------------------
+-Languages: Java/JEE, Python, C, C++, HTML, CSS, Javascript, PL/SQL, MATLAB
+-Mobile: Android
+-Java/J2EE 5: Web Services (JAX-WS, SOAP, JAX-RPC, JAXB, UDDI), JAXR, JPA, JMX, JMS, BPEL, Ant, Maven, Subversion, CVS, jUnit, JSF, Spring, Quartz, Eclipse/SWT, JNI
+-Apache: Tomcat, HTTPD, Wicket, ActiveMQ, ServiceMix, jUDDI, Scout, ODE, CXF, Axis, Axis2, Log4j, Commons (Logging, BeanUtils, Collections, Lang), Struts
+-Web 2.0: Dojo, jQuery, GWT
+-JBoss: Drools, jBPM, Hibernate, Microcontainer, ESB, Clustered Application Server
+-IBM: RSA, WebSphere, Process Server
+-Databases: Oracle 9i/10g, PostGres, MySQL, DB2
+-Statistics: Bayesian Models, Switching Kalman Filter, Viterbi path estimation, Markov Model, stereo vision
+
+Android Development
+----------------------------
+'VirtualBox Manager' Application 
+-4+ star rating (10,000->15,000 installs) on Google Market (https://market.android.com/details?id=com.kedzie.vbox&feature=search_result)
+-Control Oracle VirtualBox installation remotely using Webservice API
+-Exposes all API functionality, i.e. start/stop, snapshot, save state
+-Display Virtual Machine details & log files
+-real-time CPU/Memory metric graphs
+-Source code available at GitHub: https://github.com/kedzie/VBoxManager
+
+Professional experience
+----------------------------
+
+9/12-Present        Yotime                        		San Diego, CA
+Android Developer
+-Built application with RESTful backend services
+-Integrations with Facebook, Twitter, Youtube & PayPal
+-Implemented Android recommended design/navigation patterns, including fragment layouts for tablets
+-Single APK with backwards compatibility using Google support libraries and ActionBarSherlock
+
+4/12-8/12        Chicago Tribune                        	Chicago, IL
+Android Developer
+-Developed Android tablet application for accessing news media (video, audio, text)
+-Utilized latest Honeycomb, ICS & Support libraries with backwards compatibility (ActionBarSherlock)
+
+06/11-3/11        HS2 Solutions                        Chicago, IL
+Web Developer & Architect
+-Implemented an insurance claim processing system based on (user-editable) business rules
+-Lead an effort supporting effective & efficient rule authoring by business users. including:
+ 	-Separate object model for rule execution, optimized for rule authoring, with type conversion handled by set of technical rules.
+	-Rule Template definitions
+	-Enumerations for string-valued fields
+	-robustly designed Domain Specific Language
+	-Converted existing rule spreadsheets to Decision Tables
+	-Offer a conversion tool from excel spreadsheets to Guvnor Rule Templates
+	-Custom forms for properties dealing with date-time and geography
+-Used Gitorious repository as back-end storage for Guvnor by developing custom git modeshape connector
+
+
+10/10-6/11        University of Chicago                        Chicago, IL
+Java/Python Engineer (workflow specialist)
+-Advised team on possible value & cost of integrating existing project with a business process/workflow engine
+-Developed proof-of-concepts of various workflow-related solutions
+-Created web applications with Python + Pylon (Mako templates)
+-Created Java portlet applications in LifeRay
+
+
+2/10-9/10    MK Consulting                                Chicago, IL
+President/Lead Developer
+-Specializing in business process automation using open source Jboss stack.
+-Finding my own clients, requirement gathering and full lifecycle development.
+-Improved my focus on solving business problems rather than working 8 hours in a day.
+-Leveraged Jboss jBpm 4.x to automated business processes regarding communications between potential clients & vendors for internet marketing applications.
+-Developed user interfaces using Google Web Toolkit (GWT) & Javascript.
+-RESTful web services.
+-EJB backend with JPA/Hibernate.   SOLR search capability.
+-Connected with client's vendor database, including LDAP &amp; relational DB's.
+
+
+8/09-12/09    NAVTEQ                Chicago, IL
+J2EE Senior Architect
+-Specialized in developing jBPM extensions.
+-Developed extensions to JBoss jBPM to support object & role based authorization.
+-Designed an integration layer which allowed jBPM to be used with any implementation of the java security specifications.  The integration layer leveraged the existing interceptor architecture & custom wire bindings.   This makes changing the security implementation possible down the line.
+-While planning to contribute the implementation to JBoss in the future, the extensions were designed without overriding or modifying any jBPM classes.  This was done to avoid synchronizing our modifications with the constantly changing jBPM codebase.  The flexibility of jBPM?s configuration architecture made this possible.
+-SOLR process definition & instance search
+
+
+11/08-5/09    MIT Lincoln Laboratory   Boston, MA
+Software Engineer
+-SOA specialist. Designed & developed SA applications, services & ESB infrastructure using Java EE.
+-Integrated applications, including those developed in C++ & Matlab, developed by other laboratory groups into a SOA architecture.  Clients discovered services from UDDI registry.
+-Developed 3D GIS visualization client using GeoTools & OpenGL.
+-Applications communicated via Cursor-on-Target & CRD schemas for Situational Awareness & route planning.
+-Integrated with Falconview.
+-Used JBoss application server to host services and a UDDI registry.
+-Developed Proof-of-Concepts for architecture ideas.
+-Prepared and performed demonstrations for laboratory clients.
+
+
+1/08-7/08            Perficient                        Austin, TX
+Lead Technical Consultant
+-100% travel consultant developing J2EE applications.  Perficient is an IBM business partner and supplies IBM consultants.
+-Worked on US Customs project modernizing all software systems to Java.  Including back-end logic including business rule engine, solr search, & persistence.
+
+
+7/07-12/07        Pervasive Software, Inc.        Austin, TX
+J2EE Software Architect
+-Hired on a 3 month contract to develop an enterprise platform which allowed the company to expose their core technology engine to thousands of users with a SaaS business model and to orchestrate business processes with BPEL.
+-User interfaces with Javascript, Dojo & JSF.
+-Developed an ESB which leveraged their existing proprietary technology  and added features such as High Availability, scalability, multi-tenancy, BPEL orchestration, JMX/SMNP monitoring, and content management. 
+-Lead the entire development life-cycle from requirements and release; including the design/implementation of a semi-formal iterative process.
+-Implemented the application using J2EE 5 technologies including JBoss 4.2 AS, EJB 3, JAX-WS, JMX.  Also used JBoss jBPM, Hibernate, BPEL (Apache ODE), JMX, JSF, and Spring.  Developed development tools as Eclipse Plugins.
+
+
+8/05-6/07        KiTS (Knowledgeable & Innovative Technical Solutions)        Round Rock, TX
+Java Developer
+-J2EE Development of a SOA application using IBM WebSphere and Oracle.  Daily experience developing Web Services, EJBs, Hibernate, ESB, JSP, JMS, JMX, Java WebStart, JBoss AOP, and JBoss Rules.  Implemented ESB using WebSphere ND, WebSphere Process Server, and WebSphere MQ.
+-Developed POC for C2(Command & Control)/SA (Situational Awareness)  application which utilized 200+ Gigabytes of GIS data in various formats (DTED 1&2, CADRD (1:25k, 1:50k, 1:100k, 1:1Mil, 1:5Mil), CID (1M, 5M), GeoTIFF(1:1M).  Used OpenMAP framework to load file formats.  Developed custom 3D rendering with OpenGL which dynamically loaded map data based on the visible area in the current viewpoint.  Optimal map scales were chosen based on viewpoint, data availability, and user override preferences.  Multiple scales of satellite/map imagery could be layered onto optimal level of DTED elevation data.  Screen shots available on website.
+-As a IBM Business Partner, KiTS adopted Rational Unified Process with ClearCase, ClearQuest and Rational Software Development Platform.  Used model based development with UML.
+-Co-designed & implemented business logic & validation rules using Fair Isaac Blaze Advisor before converting to JBoss Rules after licensing issues.  Both were integrated with the application code non-intrusively via JBoss Aspect Oriented Programming.
+-Took on major role in early design/development of J2EE/SOA data initialization software, for US Army, deployed on IBM WebSphere Application Server.  
+-Designed & Implemented persistence layer using JBoss Hibernate technology with an Oracle 10g Database.  Developed user interface using Swing and JSP.
+-Implemented client-server communications using JAX-RPC webservice delegate/facade pattern.  Delivered client to user via Java WebStart.
+-Was brought on as a full-time salary employee by KITS after six month minimum period; supported successful delivery of production application to the Army.
+
+
+8/97-12/00 (4 year gap is college)        Motorola                Schaumburg, IL
+C++ Programmer
+-Started working at the age of 15.  Continued until I went to study at the University of Texas at Austin.
+-Took on major role in the development of a virtual reality training application for use in Motorola factories.
+-Developed interactive 3D environment using Direct3D and Microsoft Visual C++.
+
+
+Research & Education
+-------------------------
+Current			Android Development
+-Developed Android applications since the SDk was released by Google.
+-Created VirtualBox application to manage/monitor virtual machines from mobile device.
+-Source available at: https://github.com/kedzie/VBoxManager
+
+Summer 2007        Independent Research                Austin, TX
+Independent Research: Polyphonic Transcription VST Plugin
+-Developed Virtual Studio Technology Plugin implementation of the polyphonic music transcription algorithm described below.  -Optimized algorithms for production use.  Used C++.  (Code available on request of potential employer)
+
+
+Spring 2005        University of Texas                        Austin, TX
+Polyphonic Transcription: Parallel Implementation   (available on website )
+-Developed a parallel processing implementation of polyphonic music transcription algorithm(described in next section).  Tested on supercomputers with thousands of processors.  Wrote a paper describing results and lessons learned.
+
+
+Spring 2005        University of Texas                        Austin, TX
+CS379H Honors Thesis: Polyphonic Transcription   (available on website )
+-Continued previous research by implementing polyphonic music transcription using Bayesian statistical modeling (Switching Kalman Filter Model).
+-Developed effective application under Matlab environment; included mono/polyphonic transcription as well as instrument-specific EM parameter learning algorithm.
+-Performed research independently, which was later evaluated by Professor Novak as well as former Chairmen of Astronomy,  Bill Jefferys.  Received an A for the course.
+
+
+Spring  2004        University of Texas                        Austin, TX
+CS370 Undergraduate Research: Monophonic music transcription
+-Developed software which detected the pitch of real-time audio input and converted it to MIDI messages.  Earned an A for independent research supervised by Prof. Gordon Novak.
+-Implemented using DFT based fundamental frequency detection; as well as an original note onset/offset detection algorithm.
+
+
+Education
+-----------
+2001-2005        University of Texas                        Austin, TX
+B.A. Computer Sciences
+-Completed CS370 Undergraduate Research & CS379H Honors Research Thesis with A's.

@@ -5,27 +5,15 @@ mark.kedzierski@gmail.com
 http://mark.kedzierski.googlepages.com
 
 
-Objective
--------------
-To make significant contributions in the design & development of Service Oriented Architectures
+Overview
+--------
+Season developer with 10+ years experience in application development.  I have spent the past 3 years focused on Android development, beginning with my Google Play Store application ‘VirtualBox Manager’ which has 12,000 installs with 4+ star rating.
 
-
-Security Clearance
----------------------
-Active DoD SECRET security clearance.
-
-
-Technical Skills
-------------------
--Languages: Java/JEE, Python, C, C++, HTML, CSS, Javascript, PL/SQL, MATLAB
--Mobile: Android
--Java/J2EE 5: Web Services (JAX-WS, SOAP, JAX-RPC, JAXB, UDDI), JAXR, JPA, JMX, JMS, BPEL, Ant, Maven, Subversion, CVS, jUnit, JSF, Spring, Quartz, Eclipse/SWT, JNI
--Apache: Tomcat, HTTPD, Wicket, ActiveMQ, ServiceMix, jUDDI, Scout, ODE, CXF, Axis, Axis2, Log4j, Commons (Logging, BeanUtils, Collections, Lang), Struts
--Web 2.0: Dojo, jQuery, GWT
--JBoss: Drools, jBPM, Hibernate, Microcontainer, ESB, Clustered Application Server
--IBM: RSA, WebSphere, Process Server
--Databases: Oracle 9i/10g, PostGres, MySQL, DB2
--Statistics: Bayesian Models, Switching Kalman Filter, Viterbi path estimation, Markov Model, stereo vision
+Education
+-----------
+2001-2005        University of Texas                        Austin, TX
+B.A. Computer Sciences
+-Completed CS370 Undergraduate Research & CS379H Honors Research Thesis with A's.
 
 Android Development
 ----------------------------
@@ -40,7 +28,7 @@ Android Development
 Professional experience
 ----------------------------
 
-9/12-Present        Yotime                        		San Diego, CA
+9/12-Present        Yotimbe                        		San Diego, CA
 Android Developer
 -Built application with RESTful backend services
 -Integrations with Facebook, Twitter, Youtube & PayPal
@@ -141,8 +129,8 @@ C++ Programmer
 -Developed interactive 3D environment using Direct3D and Microsoft Visual C++.
 
 
-Research & Education
--------------------------
+Research
+--------
 Current			Android Development
 -Developed Android applications since the SDk was released by Google.
 -Created VirtualBox application to manage/monitor virtual machines from mobile device.
@@ -170,9 +158,19 @@ CS370 Undergraduate Research: Monophonic music transcription
 -Developed software which detected the pitch of real-time audio input and converted it to MIDI messages.  Earned an A for independent research supervised by Prof. Gordon Novak.
 -Implemented using DFT based fundamental frequency detection; as well as an original note onset/offset detection algorithm.
 
+Security Clearance
+---------------------
+Active DoD SECRET security clearance.
 
-Education
------------
-2001-2005        University of Texas                        Austin, TX
-B.A. Computer Sciences
--Completed CS370 Undergraduate Research & CS379H Honors Research Thesis with A's.
+
+Technical Skills
+------------------
+-Languages: Java/JEE, Python, C, C++, HTML, CSS, Javascript, PL/SQL, MATLAB
+-Mobile: Android
+-Java/J2EE 5: Web Services (JAX-WS, SOAP, JAX-RPC, JAXB, UDDI), JAXR, JPA, JMX, JMS, BPEL, Ant, Maven, Subversion, CVS, jUnit, JSF, Spring, Quartz, Eclipse/SWT, JNI
+-Apache: Tomcat, HTTPD, Wicket, ActiveMQ, ServiceMix, jUDDI, Scout, ODE, CXF, Axis, Axis2, Log4j, Commons (Logging, BeanUtils, Collections, Lang), Struts
+-Web 2.0: Dojo, jQuery, GWT
+-JBoss: Drools, jBPM, Hibernate, Microcontainer, ESB, Clustered Application Server
+-IBM: RSA, WebSphere, Process Server
+-Databases: Oracle 9i/10g, PostGres, MySQL, DB2
+-Statistics: Bayesian Models, Switching Kalman Filter, Viterbi path estimation, Markov Model, stereo vision

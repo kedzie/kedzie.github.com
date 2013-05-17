@@ -17,6 +17,10 @@ B.A. Computer Sciences
 
 Android Development
 ----------------------------
+'Android Support Library for NineOldAndroids'
+-Added NineOldAndroids object animator apis for fragment transitions
+-Allow using PageTransformers in pre-Honeycomb API levels
+
 'VirtualBox Manager' Application 
 -4+ star rating (10,000->15,000 installs) on Google Market (https://market.android.com/details?id=com.kedzie.vbox&feature=search_result)
 -Control Oracle VirtualBox installation remotely using Webservice API

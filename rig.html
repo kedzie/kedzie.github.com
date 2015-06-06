@@ -1,46 +1,60 @@
 <html>
 <head>
-	<title>Guitar Rig 5 Component Reference</title>
-	<style type="text/css">
-		* { margin:0; padding:0; font-family:sans-serif; }
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-		body {
-			width: 500px;
-		}
+<title>Guitar Rig 5 Component Reference</title>
+<meta name="description" content="Guitar Rig 5 Component Reference" />
 
-		.real {
-			color: blue;
-		}
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
 
-		table {
-			border-collapse:collapse;
-			width: 100%
-		}
-		table, td, th {
-			border:1px solid black;
-		}
-		th, td {
-			padding-left: 4px;
-			padding-right: 4px;
-			text-align: center;
-		}
-	</style>
+<style type="text/css">
+	* { margin:0; padding:0; font-family:sans-serif; }
 
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
-   	<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
 
-  	<script type="text/javascript">
-     	$(function(){
-     		$('#accordion').accordion({
-				collapsible: true,
-				active: false,
-				heightStyle: "content"
-			});
+
+	.real {
+		color: blue;
+	}
+
+	table {
+		border-collapse:collapse;
+		width: 100%
+	}
+	table, td, th {
+		border:1px solid black;
+	}
+	th, td {
+		padding-left: 4px;
+		padding-right: 4px;
+		text-align: center;
+	}
+</style>
+
+
+<script type="text/javascript">
+	$(function(){
+	$('#accordion').accordion({
+			collapsible: true,
+			active: false,
+			heightStyle: "content"
 		});
-   	</script>
+	});
+</script>
 </head>
 <body>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">Marek Kedzierski</h1>
+          <h2 id="project_tagline">Guitar Rig Component Reference</h2>
+        </header>
+    </div>
+
+    <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
 
 <h1>Guitar Rig 5 Components</h1>
 <div id="accordion">
@@ -84,7 +98,7 @@
 <tr><td>Rib 160 </td><td class="real"><a href="http://north-america.beyerdynamic.com/shop/mp/microphones/vocals-and-instruments/studio-vocals/m-160.html">Beyerdynamic M 160</a></td></tr>
 </table></div>
 
-<h3>Control Room Pro</h3>
+<h3>Cabinets</h3>
 <div><table>
 <tr><th>Component</th><th>Emulated Gear</th></tr>
 <tr><td colspan="2"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=31">Control Room Pro</a></td></tr>
@@ -122,7 +136,7 @@
 <h3>Delay &amp; Echo</h3>
 <div><table>
 <tr><th>Component</th><th>Emulated Gear</th></tr>
-<tr><td>Delay Man </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=34">Electro-Harmonix Memory Man</a></td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=34">Delay Man</a></td><td class="real">Electro-Harmonix Memory Man</td></tr>
 <tr><td>Tape Echo </td><td class="real">Roland RE-201 Space Echo</td></tr>
 <tr><td>Psyche Delay
 <tr><td>Quad Delay
@@ -132,13 +146,13 @@
 <h3>Distortion</h3>
 <div><table>
 <tr><th>Component</th><th>Emulated Gear</th></tr>
-<tr><td>Big Fuzz </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=43">Electro-Harmonix Big Muff Pi</a></td></tr>
-<tr><td>Cat </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=44">Pro Co RAT</a></td></tr>
-<tr><td>Demon Distortion </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=45">MXR Dime Distortion DD11</a></td></tr>
-<tr><td>Distortion </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=46">Boss DS-1</a></td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=43">Big Fuzz</a></td><td class="real">Electro-Harmonix Big Muff Pi</td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=44">Cat</a></td><td class="real">Pro Co RAT</td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=45">Demon Distortion</a></td><td class="real">MXR Dime Distortion DD11</td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=46">Distortion</a></td><td class="real">Boss DS-1</td></tr>
 <tr><td>Fuzz </td><td class="real">Dunlop Dallas Arbiter Fuzz Face</td></tr>
 <tr><td>MeZone </td><td class="real">Boss MT-2 Metal Zone</td></tr>
-<tr><td>Skreamer </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=49">Ibanez TS-808 Tube Screamer</a></td></tr>
+<tr><td><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=49">Skreamer</a></td><td class="real">Ibanez TS-808 Tube Screamer</td></tr>
 <tr><td>Sledge Hammer </td><td class="real">Marshall Jackhammer JH-1</td></tr>
 <tr><td>TransAmp </td><td class="real">Tech 21 SansAmp GT2</td></tr>
 <tr><td>Treble Booster
@@ -160,9 +174,17 @@
 <tr><td>Harmonic Synthesizer </td><td class="real">Electro-Harmonix Micro Synthesizer</td></tr>
 <tr><td>Octaver </td><td class="real">Boss OC-2 Octave</td></tr>
 <tr><td>Pitch Pedal </td><td class="real"><a href="files/Guitar.Rig.5.Component.Reference.pdf#page=91">DigiTech WH-4 Whammy</a></td></tr>
-<tr><td>Resochord
+<tr><td>Resochord</td></tr>
 </table></div>
 </div>
 
+</section>
+</div>
+<div id="footer_wrap" class="outer">
+<footer class="inner">
+	<p class="copyright">Maintained by <a href="https://github.com/kedzie">kedzie</a></p>
+	<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+</footer>
+</div>
 </body>
 </html>

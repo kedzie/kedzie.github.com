@@ -9,13 +9,39 @@
 <title>Mark Kedzierski</title>
 <meta name="description" content="Mark Kedzierski: Personal &amp; Professional projects." />
 
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
-<script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
-<script type="text/javascript" >
-$(document).ready(function(){
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-});
+<style>
+.ui-tooltip {
+    max-width: 350px;
+  }
+
+</style>
+
+<script type="text/javascript" >
+$(function() {
+    $( document ).tooltip({
+      items: "img, [toolimg], [title]",
+      content: function() {
+        var element = $( this );
+        if ( element.is( "[toolimg]" ) ) {
+			var alt = element.text();
+          	var src = element.attr( "toolimg" );
+          	return "<img class='ui-corner-all' alt='" + alt + "' src='" + src + "'/>";
+        }
+        if ( element.is( "[title]" ) ) {
+          return element.attr( "title" );
+        }
+        if ( element.is( "img" ) ) {
+          return element.attr( "alt" );
+        }
+      },
+		show: { effect: "scale", delay:0},
+		hide: { effect: "scale", delay:0 }
+    });
+  });
 </script>
   </head>
 
@@ -73,15 +99,17 @@ $(document).ready(function(){
 		</ul>
 		<h2>Custom Guitars &amp; Woodworking</h2>
 
-		<p>I build electric guitars from scratch.  My <a href="pink.html">current project</a> has a custom (PRS influenced) body style with an Ibanez style neck. It has a fabric finish with pink &amp; green flowers.  25" scale length with an angled neck for better action.  Gibson style bridge &amp; PRS humbucking pickups.</p>
+		<p>I build electric guitars from scratch.  My <a href="pink.html" toolimg="files/PinkGuitar.JPG">current project</a> has a custom (PRS influenced) body style with fabric finish and Ibanez style neck. 25" scale length with an angled neck.  Gibson style bridge &amp; PRS humbucking pickups.</p>
 		
-		<p>I also build furniture.  I recently built a 3-section <a href="desk.html">music recording studio desk</a>.  My goal was to build a modern desk with exposed joinery.  Classic joinery is used exclusively throughout the project; not a single screw to be found.</p>
+		<p>I also build furniture.  I recently built a 3-section <a href="desk.html" toolimg="files/Desk.JPG">music recording studio desk</a>.  My goal was to build a modern desk with exposed joinery.  Classic joinery is used exclusively throughout the project; not a single screw to be found.</p>
+
+		<p><a href="woodworking.html">Images</a></p>
 
 		<h2>GIS Development</h2>
 
 		<p>Professionally developed GIS visualization tools for various GIS formats. i.e. DTED, CADRG, CID, GeoTIFF, GeoJPEG.  
 		OpenMap API for file reading. OpenGL Visualization
-		Automatic detection of optimal map scale. <a href="screenshots.html">screenshots</a></p>
+		Automatic detection of optimal map scale. <a href="screenshots.html" toolimg="files/NewSymbol.JPG">screenshots</a></p>
 	</section>
 	</div>
 	<div id="footer_wrap" class="outer">

@@ -70,18 +70,21 @@ $(function() {
     <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
 
-		<h3>Marek Kędzierski</h3>
+		<h2>Resume</h2>
 
-		<p>
-		Download my resume:
-		<a href="files/MarkKedzierski-Engineer.docx">Microsoft Word</a> |
-		<a href="files/MarkKedzierski-Engineer.html">HTML</a> |
-		<a href="files/MarkKedzierski-Engineer.txt">Text</a>
-		</p>
+		<div>
+		<ul>
+			<li><a href="files/MarkKedzierski-Engineer.html">Interactive Resume</a></li>
+			<li>Download <a href="files/MarkKedzierski-Engineer.docx">Microsoft Word</a></li>
+			<li>View plain <a href="files/MarkKedzierski-Engineer.txt">text</a></li>
+		</ul>
+		</div>
 
-		<h1>Android Development</h1>
+		<h2>Android Development Highlights</h2>
 
-		<h2>VirtualBox Manager</h2>
+			<div>
+
+		<h3>VirtualBox Manager</h3>
 		<ul>
 		<li>100,000+ installs on <a href="https://play.google.com/store/apps/details?id=com.kedzie.vbox">Google Market</a></li>
 		<li>Control Oracle VirtualBox installation remotely using Webservice API</li>
@@ -89,11 +92,26 @@ $(function() {
 		<li>Display Virtual Machine details &amp; log files</li>
 		<li>real-time CPU/Memory metric graphs</li>
 		<li><a href="https://github.com/kedzie/VBoxManager">Source code available at GitHub</a></li>
+		<li><a href="https://docs.google.com/presentation/d/1TyATQSuchTuCPwtfiqr6VllToBa4yRO0Uw4nxoRdUuY/edit?usp=sharing">Lecture Slides</a></li>
 		</ul>
+
+		<h3>NATS-Android</h3>
+		<ul>
+			<li>Officially recognized port of <a href="http://nats.io">NATS-IO to Android</a></li>
+			<li>Open source at <a href="http://www.github.com/SpotOnInc/nats-android">Github</a></li>
+		</ul>
+
+		<h3>Koin</h3>
+		<ul>
+			<li>Implemented ViewModel Saved State support for <a href="http://insert-koin.io">Koin</a> 2.1.0</li>
+			<li><a href="https://docs.google.com/presentation/d/1vS1VuIyORjirunh4Q-ElJ5uQ1kSz48vPVm37aKC7o5A/edit?usp=sharing">Lecture Slides</a></li>
+		</ul>
+
+	</div>
 
 		<h2>Current Employment</h2>
 
-		Android Team Lead @ Grubhub
+		Android Team Lead @ <a href="http://www.grubhub.com">Grubhub</a>
 
 		<h2>Music Transcription Research</h2>
 
@@ -101,10 +119,16 @@ $(function() {
 		
 		<li><a href="files/BayesianPolyphonicTranscription.pdf">Bayesian Polyphonic Transcription</a>
 		<ul>
-		<li>Viterbi path estimation on Switching Kalman Filter Model. Developed in Matlab. (available soon as VST plugin)
-		<li>Developed a parallel implementation with MPI <a href="files/ParallelPolyphonicTranscription.pdf">Download Paper</a>
+		<li>Viterbi path estimation on Switching Kalman Filter Model. Developed in Matlab. Ported to VST plugin
 		</ul>
 		</li>
+		<li><a href="files/ParallelPolyphonicTranscription.pdf">Parallel implementation with MPI</a>
+			<ul>
+				<li>MPI Implementation of viterbi algorithm</li>
+			</ul>
+		</li>
+
+
 		<li><a href="files/MonophonicTranscription.pdf">Monophonic Music Transcription w/FFT</a>
 		<ul>
 		<li>Detects pitch &amp;amp; note onsets in real-time &amp; outputs MIDI.

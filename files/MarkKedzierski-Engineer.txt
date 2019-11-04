@@ -2,12 +2,12 @@ Marek Kedzierski
 -------------------
 (847)-204-7068
 mark.kedzierski@gmail.com
-http://mark.kedzierski.googlepages.com
+http://kedzie.github.io
 
 
 Overview
 --------
-Season developer with 10+ years experience in application development.  I have spent the past 3 years focused on Android development, beginning with my Google Play Store application ‘VirtualBox Manager’ which has 12,000 installs with 4+ star rating.
+Seasoned Engineer with 20 years professional experience in application development.  I am looking for a Lead Android Engineer position where I can make a large impact by raising the quality of work done by an Android team.  Instilling best practices and leveraging technology to make well maintainable, testable, and reusable code.
 
 Education
 -----------
@@ -15,22 +15,80 @@ Education
 B.A. Computer Sciences
 -Completed CS370 Undergraduate Research & CS379H Honors Research Thesis with A's.
 
-Android Development
+Open Source Development
 ----------------------------
 'Android Support Library for NineOldAndroids'
 -Added NineOldAndroids object animator apis for fragment transitions
 -Allow using PageTransformers in pre-Honeycomb API levels
 
 'VirtualBox Manager' Application 
--4+ star rating (10,000->15,000 installs) on Google Market (https://market.android.com/details?id=com.kedzie.vbox&feature=search_result)
+-100,000+ installs on Google Market (https://market.android.com/details?id=com.kedzie.vbox&feature=search_result)
 -Control Oracle VirtualBox installation remotely using Webservice API
 -Exposes all API functionality, i.e. start/stop, snapshot, save state
 -Display Virtual Machine details & log files
 -real-time CPU/Memory metric graphs
 -Source code available at GitHub: https://github.com/kedzie/VBoxManager
 
+'WorldWind Android'
+-Ported core functionality from WorldWind Java SDK
+-Load 3D models using Rajawali integration
+-Surface shapes framework
+-Multitouch gesture improvements, zoom/rotate
+-Performance statistics framework
+-Clocked rendering
+-ETC1 Texture compression, to-disk and on-the-fly compression
+-Animation framework
+-Work available at http://www.github.com/kedzie/WorldWind_Android
+
+NATS Android
+-Officially recognized port of java-nats to Android
+-http://www.github.com/SpotOnInc/nats-android
+
+Other Contributions
+-KOIN
+-maven-android-plugin
+-Rajawali
+
+
 Professional experience
 ----------------------------
+
+11/19-preset		Grubhub								Chicago, IL
+Engineering Team Lead
+-Leading Android efforts for Diner app
+-Improved cold launch time
+
+1/19-10/19			SpotOn Inc. 					   Chicago, IL
+Android Technical Lead
+-Designed and oversaw development of OAUTH2 Server for mobile apps
+-Implemented integration with restaurant POS using NATS.  Ported NATS to Android and released officially recognized community project NATS-Android
+-Refactored all existing applications use properly use android authentication and sync
+-Mentored team members in best practices.
+
+10/17-present	     Outcome Health                    Chicago, IL
+Senior Android Developer
+-Taught the team how to leverage dependency injection with Dagger2 to remove singletons and for testability. 
+-Added Jenkins Pipeline CI framework to the build process.  Automatic builds and instrumentation testing on physical Outcome Health devices for all Pull Requests and tagged versions.
+-Recognized as key contributor to code reviews.  Improving overall quality of code from entire team.
+-Last stop for technical questions/bugs. 
+
+
+02/13-06/17	     CNH Industrial                      Burr Ridge, IL
+Senior Android Developer
+-Android development for custom tablet with OS modifications to support custom functionality.
+-OS development to support custom SystemUI (status bar, navigation bar), window z-order, touch & drag event dispatching, keyboard display.  Compiled Android OS for custom hardware and emulator.
+-Developing of custom views to match UI/UX specs, AIDL services for IPC, content providers.  
+-Native android development with NDK, including OpenGL ES 3
+-Compilation of native 3rd party libraries, including zeromq, protobuf, for Android using NDK standalone toolchains with GNU Autotools.
+-Development and automated testing using Roboguice, Robolectric and Mockitro.
+
+
+05/15-11/15                                   Isobar                                        Chicago, IL
+Senior Android Developer
+-Gigya RaaS social registration and login flows integrated with Livefyre chat on Android.
+-Supported emoji's in chat by using Android Spannable API.  Custom Emoji keyboard populated with image URL's from REST webservice.
+-Shared element transitions between fragments following material design guidelines
+
 
 9/12-Present        Yotimbe                        		San Diego, CA
 Android Developer
@@ -169,7 +227,7 @@ Active DoD SECRET security clearance.
 
 Technical Skills
 ------------------
--Languages: Java/JEE, Python, C, C++, HTML, CSS, Javascript, PL/SQL, MATLAB
+-Languages: Kotlin, Java/JEE, Python, C, C++, HTML, CSS, Javascript, PL/SQL, MATLAB
 -Mobile: Android
 -Java/J2EE 5: Web Services (JAX-WS, SOAP, JAX-RPC, JAXB, UDDI), JAXR, JPA, JMX, JMS, BPEL, Ant, Maven, Subversion, CVS, jUnit, JSF, Spring, Quartz, Eclipse/SWT, JNI
 -Apache: Tomcat, HTTPD, Wicket, ActiveMQ, ServiceMix, jUDDI, Scout, ODE, CXF, Axis, Axis2, Log4j, Commons (Logging, BeanUtils, Collections, Lang), Struts
